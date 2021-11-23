@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
@@ -35,4 +35,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-item {
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 230px;
 }

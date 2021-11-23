@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Workday Scheduler",
+    "img": "/images/workdayScheduler.jpg",
+    "link": "https://jordanlindgren.github.io/Calendar/",
+    "repo": "https://github.com/jordanlindgren/Calendar",
+    "description": "A simple work day scheduler"
+  },
+  
+  {
+    "title": "Github",
+    "img": "/images/githubPage.jpg",
+    "link": "https://github.com/jordanlindgren",
+    "repo": "https://www.github.com/me/diff-project",
+    "description": "My github page"
+  },
+  {
+    "title": "Group Project 2",
+    "img": "/images/project2.jpg",
+    "link": "https://captionmeme.herokuapp.com/",
+    "repo": "https://github.com/jordanlindgren/GroupProject2",
+    "description": "My first group project"
+  },
+  {
+    "title": "Employee Backend",
+    "img": "/images/backendBuilder.jpg",
+    "link": "https://watch.screencastify.com/v/Y82Nrizcgty4p5vM18ru",
+    "repo": "https://github.com/jordanlindgren/employeeTracker",
+    "description": "A application to allow a user to track salaries, positions, and managers within a company"
+  },
+  {
+    "title": "Weather API",
+    "img": "/images/weatherAPI.jpg",
+    "link": "https://difhttps://jordanlindgren.github.io/hwWeather/f-project.github.io/",
+    "repo": "https://www.github.https://github.com/jordanlindgren/hwWeathercom/me/diff-project",
+    "description": "A city based search API to track weather"
+  },
+  {
+    "title": "Project 1",
+    "img": "/images/project1.jpg",
+    "link": "https://diff-project.github.io/",
+    "repo": "https://github.com/bretpeters3n/group-project-1-cat-memory",
+    "description": "My first group project"
+  }
+  
+]
