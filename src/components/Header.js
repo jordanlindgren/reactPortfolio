@@ -8,9 +8,8 @@ export default function Header(props) {
   }
 
   return (
-    <header>
-      <h2>Title</h2>
-      <ul>
+    <header className="header">
+      <ul className="head">
         <li>
           <a href="#about" onClick={() => emitOnPageSelected(Pages.About)}>
             About Me

@@ -51,3 +51,60 @@
   width: 500px;
   height: 230px;
 }
+
+.head {
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.header {
+  background-color: #282c34;
+  color: beige;
+}
+
+header li {
+  padding-left: 2%;
+  padding-right: 2%;
+  list-style: none;
+}
+
+header a {
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.socialmedia {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+footer li {
+  padding-left: 2%;
+  padding-right: 2%;
+  list-style: none;
+}
+
+footer i {
+  color: white;
+}
+
+.footer {
+  background-color: #282c34;
+  height: 10vh;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.about {
+}
+
+.contactForm {
+}

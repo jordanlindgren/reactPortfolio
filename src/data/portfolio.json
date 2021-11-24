@@ -1,7 +1,7 @@
 [
   {
     "title": "Workday Scheduler",
-    "img": "/images/workdayScheduler.jpg",
+    "img": "./images/workdayScheduler.jpg",
     "link": "https://jordanlindgren.github.io/Calendar/",
     "repo": "https://github.com/jordanlindgren/Calendar",
     "description": "A simple work day scheduler"
