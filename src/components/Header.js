@@ -12,7 +12,7 @@ export default function Header(props) {
       <ul className="head">
         <li>
           <a href="#about" onClick={() => emitOnPageSelected(Pages.About)}>
-            About Me
+            <button>About Me</button>
           </a>
         </li>
         <li>
@@ -20,17 +20,17 @@ export default function Header(props) {
             href="#portfolio"
             onClick={() => emitOnPageSelected(Pages.Portfolio)}
           >
-            Portfolio
+            <button>Portfolio</button>
           </a>
         </li>
         <li>
           <a href="#contact" onClick={() => emitOnPageSelected(Pages.Contact)}>
-            Contact
+            <button>Contact</button>
           </a>
         </li>
         <li>
           <a href="#resume" onClick={() => emitOnPageSelected(Pages.Resume)}>
-            Resume
+            <button>Resume</button>
           </a>
         </li>
       </ul>
