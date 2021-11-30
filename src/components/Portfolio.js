@@ -25,12 +25,19 @@ function PortfolioItem(props) {
   return (
     <div
       className={"portfolio-item"}
-      style={{ backgroundImage: `url('${props.img}')` }}
+      style={{
+        backgroundImage: `url('${process.env.PUBLIC_URL + "/" + props.img}')`,
+      }}
     >
       <h3>
         <a href={props.link}>{props.title}</a>
         <a href={props.repo}>
-          <img src="/images/GitHub.png" height="16" width="16" />
+          <img
+            src={process.env.PUBLIC_URL + "/images/GitHub.png"}
+            height="16"
+            width="16"
+            alt="GitHub Logo"
+          />
         </a>
       </h3>
       <p>{props.description}</p>

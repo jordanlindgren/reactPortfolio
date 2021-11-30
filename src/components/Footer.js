@@ -21,6 +21,15 @@ export default function Footer() {
             <i className="fas fa-envelope fa-3x"></i>
           </a>
         </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/jordan-lindgren-9b06882a/"
+            target="_"
+            id="items4"
+          >
+            <i class="fab fa-linkedin fa-3x"></i>
+          </a>
+        </li>
       </ul>
     </footer>
   );

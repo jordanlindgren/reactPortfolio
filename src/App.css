@@ -42,14 +42,41 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-bottom: 200px;
 }
 
 .portfolio-item {
+  /* It is necessary to use position relative to make the position: absolute work on the ::before  */
+  position: relative;
   margin: 10px;
   background-repeat: no-repeat;
   background-size: cover;
   width: 500px;
   height: 230px;
+  border: 2px solid gray;
+  border-radius: 8px;
+  background-blend-mode: screen;
+  background-color: gray;
+}
+
+/* This creates a virtual DOM element that we can style that will appear before/underneath the
+   actual content of .portfolio-item. In this case I'm using it to add a white gradient on top of
+   the background images for each tile, which improves readability. */
+.portfolio-item::before {
+  content: " ";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  background-image: linear-gradient(white, transparent);
+}
+
+.portfolio-item > * {
+  /* In order for z-order stacking to work correctly it is necessary for other portfolio-item
+     children to use position: relative */
+  position: relative;
 }
 
 .head {
